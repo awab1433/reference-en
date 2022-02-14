@@ -28,35 +28,7 @@ Constructing a String from a number results in a string that contains the ASCII 
 ----
 String thisString = String(13);
 ----
-gives you the String "13". You can use other bases, however. For example,
-
-
-[source,arduino]
-----
-String thisString = String(13, HEX);
-----
-
-gives you the String "d", which is the hexadecimal representation of the decimal value 13. Or if you prefer binary,
-
-[source,arduino]
-----
-String thisString = String(13, BIN);
-----
-
-gives you the String "1101", which is the binary representation of 13.
-[%hardbreaks]
-
-
-[float]
-=== Syntax
-`String(val)` +
-`String(val, base)` +
-`String(val, decimalPlaces)`
-
-
-[float]
-=== Parameters
-`val`:  a variable to format as a String. Allowed data types: string, char, byte, int, long, unsigned int, unsigned long, float, double. +
+gives you the String "13". You c, long, unsigned int, unsigned long, float, double. +
 `base`: (optional) the base in which to format an integral value. +
 `decimalPlaces`: *only if val is float or double*. The desired decimal places.
 
